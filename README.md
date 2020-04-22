@@ -19,7 +19,8 @@ following secrets as appropriate:
 * `SS_GHTOKEN`: a personal GitHub access token configured at
 [github.com/settings/tokens](https://github.com/settings/tokens) for the `Repo` scope.
 * `SS_GHORG`: the name of the organization in GitHub to be scanned. User orgs are not supported at this time.
-* `SS_SNYKTOKEN`: a personal Snyk access token configured at [app.snyk.io/account](https://app.snyk.io/account).
+* `SS_SNYKTOKEN`: a personal Snyk access token configured at [app.snyk.io/account](https://app.snyk.io/account). This
+_must_ be a personal token; service accounts are not supported at this time.
 * `SS_SNYKORG`: the machine name of the organization in Snyk to add projects to (as seen in the organization URL.)
 * `SS_SNYKINTID`: a UUID representing the GitHub integration Snyk will use to set up and scan, found at the very bottom of 
 the GitHub integration page for your organization in Snyk.
