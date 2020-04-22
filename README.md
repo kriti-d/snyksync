@@ -1,7 +1,7 @@
 ## SnykSync
 
-SnykSync is a simple runner written in Go that quickly compares the repositories in a given GitHub organization and
-compares them to the projects tracked in an organization on Snyk. If projects exist in GitHub that are not tracked in
+SnykSync is a simple runner written in Go that quickly compares the repositories in a given GitHub organization to the 
+projects tracked in an organization in Snyk. If projects are found to exist in GitHub that are not tracked in
 Snyk, the SnykSync tool will attempt to add them. It can be built and executed manually or this repo can be forked
 and setup to run using GitHub Actions automatically on a scheduled job.
 
